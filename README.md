@@ -15,7 +15,11 @@ for test only
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51K7Gw5La4Cx0tSz0pqJCzSfc4CgPl4QnACurOKqAomKrpFUWSMGIx9khGI5mkjmW3BglFhvfWdUPjlt6HaOr2kyZ0067oCOPEN'
 STRIPE_SECRET_KEY = 'sk_test_51K7Gw5La4Cx0tSz0DDwVdFdv8HGffxc8MKU7e2iofGAee6Uyft3NmtDNmexjZpScGGc0jVMUw7TkROd4az2KgzO300BqLZKh8b'
 ```
-
+and in your views.py:
+(for test only)
+```python
+stripe.api_key = "sk_test_51K7Gw5La4Cx0tSz0DDwVdFdv8HGffxc8MKU7e2iofGAee6Uyft3NmtDNmexjZpScGGc0jVMUw7TkROd4az2KgzO300BqLZKh8b"
+```
 
 # you need to make product,order_item/cart,etc models
 4- now lets create <code>models</code>
